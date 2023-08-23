@@ -1,0 +1,7 @@
+.DS_Store
+/answer_3/system-api/node_modules
+/answer_3/system-api/package-lock.json
+/answer_3/system-api/test.js
+/answer_3/system-api/.DS_Store
+/answer_3/system-api/.env
+/answer_3/system-api/uploads/*

@@ -1,0 +1,27 @@
+Database:
+  System: SQL
+  Model: User, Document, and Activity Log
+  Deploy: Amazon RDS
+  Querying: Create, Read, Update
+
+Storage:
+  Cloud: AWS S3
+  Auth: Firebase 
+
+Backend:
+  Server: Node.js with Express.js framework
+  Endpoints: POST-Register, POST-Login, POST-Upload document, GET-All documents, GET-document by id, GET-Activity logs by document id, PUT-Update document, PUT-Update user
+  Logic: Data validation, database interaction, authorization, and authentication
+  Deploy: AWS EC2
+
+Frontend:
+  Mobile Application
+    Interface: React Native
+    Deploy: Google Play Store/App Store
+    Communication: Consume backend APIs, AWS S3
+
+  Admin Dashboard
+    Interface: React JS
+    Deploy: Netlify/Vercel
+    Communication: Consume backend APIs, AWS S3
+  
